@@ -1,0 +1,15 @@
+.game-card:not(:last-child) {
+  margin-bottom: 1.3rem;
+}
+
+p-header {
+  padding: 0.4rem;
+}
+
+p-card {
+  text: black;
+}
+
+p-card:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,8 @@
+<div *ngFor="let game of gameList" class="game-card">
+  <p-card (click)="gameDetails(game.id)">
+    <p-header>
+      <strong>{{game.name}}</strong> - <span><em>{{game.releaseYear}}</em></span>
+    </p-header>
+    {{game.description}}
+  </p-card>
+</div>

@@ -1,0 +1,17 @@
+<div class="navBack">
+  <button class="backBtn" (click)="gotoGameList()">Game List</button>
+</div>
+<div *ngIf="game">
+  <p>
+    {{ game.name }}
+  </p>
+  <p>
+    {{ game.description }}
+  </p>
+  <p>
+    {{ game.releaseYear }}
+  </p>
+  <p>
+    {{ game.platform }}
+  </p>
+</div>

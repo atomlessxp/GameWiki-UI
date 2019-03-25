@@ -1,0 +1,11 @@
+.backBtn {
+  padding: 0.4rem;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+}
+
+.backBtn:hover {
+  background: white;
+  color: rgba(16,127,229, 0.7);
+}
