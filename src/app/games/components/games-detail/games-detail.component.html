@@ -1,17 +1,17 @@
-<div class="navBack">
-  <button class="backBtn" (click)="gotoGameList()">Game List</button>
-</div>
+<button class="backBtn" (click)="gotoGameList()">Game List</button>
 <div *ngIf="game">
-  <p>
-    {{ game.name }}
-  </p>
-  <p>
-    {{ game.description }}
-  </p>
-  <p>
-    {{ game.releaseYear }}
-  </p>
-  <p>
-    {{ game.platform }}
-  </p>
+  <p-card>
+    <p>
+      <strong>Name:</strong> {{ game.name }}
+    </p>
+    <p>
+      <strong>Description:</strong> {{ game.description }}
+    </p>
+    <p>
+      <strong>Year:</strong> {{ game.releaseYear }}
+    </p>
+    <p>
+      <strong>Platform:</strong> {{ game.platform }}
+    </p>
+  </p-card>
 </div>
